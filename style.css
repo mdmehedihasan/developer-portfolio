@@ -1,0 +1,18 @@
+
+body{
+    font-family: 'Fruktur', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-color{
+    color: orange;
+}
+#hire-me{
+    padding: 10px 40px;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
