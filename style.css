@@ -2,6 +2,7 @@
 body{
     font-family: 'Fruktur', cursive;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -9,10 +10,26 @@ h1{
 .name-color{
     color: orange;
 }
-#hire-me{
+.hire-me-button{
     padding: 10px 40px;
-    background-color: orangered;
+    background-image: linear-gradient(orange,tomato);
     color: white;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-bar{
+    background-image:url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
